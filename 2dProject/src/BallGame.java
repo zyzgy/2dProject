@@ -5,11 +5,11 @@ import javax.swing.*;
 
 public class BallGame extends JFrame{
 
-	Image desk = Toolkit.getDefaultToolkit().getImage("desk.jpg");
-	Image whiteBall = Toolkit.getDefaultToolkit().getImage("ball.png");
-	Image redBall = Toolkit.getDefaultToolkit().getImage("ball_red.png");
-	Image orangeBall = Toolkit.getDefaultToolkit().getImage("ball_orange.png");
-	Image purpleBall = Toolkit.getDefaultToolkit().getImage("ball_purple.png");
+	Image desk = Toolkit.getDefaultToolkit().getImage("imgs/desk.jpg");
+	Image whiteBall = Toolkit.getDefaultToolkit().getImage("imgs/ball.png");
+	Image redBall = Toolkit.getDefaultToolkit().getImage("imgs/ball_red.png");
+	Image orangeBall = Toolkit.getDefaultToolkit().getImage("imgs/ball_orange.png");
+	Image purpleBall = Toolkit.getDefaultToolkit().getImage("imgs/ball_purple.png");
 	double x= 200;
 	double y= 250;
 	
